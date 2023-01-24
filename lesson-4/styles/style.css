@@ -17,6 +17,7 @@ font-family: 'Poppins', sans-serif; */
 }
 
 body {
+  background-color:var(--bg-main-color);
   font-family: "Exo regular";
-  color: var(--text-main-color)
+  color: var(--text-main-color);
 }
