@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson-2</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="nav">
+          <h2 class="nav__logo">LOGO</h2>
+          <ul class="nav__list">
+            <li class="nav__list--item">
+              <a href="#" class="nav__list--item-link">Home</a>
+            </li>
+
+            <li class="nav__list--item dropdown">
+              <a href="#intro" class="nav__list--item-link intro-s">Intro</a>
+
+              <ul class="dropdown__menu">
+                <li class="dropdown__menu--item">
+                  <a href="#" class="dropdown__menu--item-link">Telegram Bot</a>
+                </li>
+                <li class="dropdown__menu--item">
+                  <a href="#" class="dropdown__menu--item-link">CRM </a>
+                </li>
+                <li class="dropdown__menu--item">
+                  <a href="#" class="dropdown__menu--item-link">Branding</a>
+                </li>
+                <li class="dropdown__menu--item">
+                  <a href="#" class="dropdown__menu--item-link"
+                    >Graphic design</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav__list--item">
+              <a href="#about" class="nav__list--item-link">About</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#contact" class="nav__list--item-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <a href="#intro" class="to-top"> top </a>
+    <main>
+      <section class="intro" id="intro">
+        <div class="container">
+          <div class="wrapper">
+            <div class="card">
+              <h2 class="form__title">Registration form</h2>
+              <form action="http://echo.htmlacademy.ru/" method="POST">
+                <label for="username">
+                  <p>Enter fullname</p>
+                  <input
+                    type="text"
+                    placeholder="Enter fullname"
+                    id="username"
+                    name="username"
+                  />
+                </label>
+                <label for="birthday">
+                  <p>Enter birthday</p>
+                  <input type="date" id="birthday" />
+                </label>
+                <label for="phone">
+                  <p>Enter phone number</p>
+                  <input
+                    type="phone"
+                    placeholder="Enter phone number"
+                    id="phone"
+                    name="phone"
+                  />
+                </label>
+                <label for="email">
+                  <p>Enter email address</p>
+                  <input
+                    type="email"
+                    placeholder="Enter email address"
+                    id="email"
+                    name="email"
+                  />
+                </label>
+                <label for="avatar">
+                  <p>Upload your photo</p>
+                  <input
+                    type="file"
+                    placeholder="Upload your photo"
+                    id="avatar"
+                    name="avatar"
+                  />
+                </label>
+                <input type="checkbox" id="switch" required name="check" />
+                <button type="submit" class="btn">Registration</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="wrapper"><h3>SECTION ABOUT</h3></div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="wrapper"><h3>Contact</h3></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container"><p>2023</p></div>
+    </footer>
+  </body>
+</html>
